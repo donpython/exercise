@@ -8,7 +8,7 @@ exports.config = {
     }
   ],
   maxSessions: 1,
-  specs: ['./e2e/loginForm.spec.js'],
+  specs: ['./e2e/profile.spec.js', './e2e/settings.negative.spec.js', './e2e/loginForm.spec.js'],
   framework: 'jasmine',
   jasmineNodeOpts: {
     isVerbose: false,
