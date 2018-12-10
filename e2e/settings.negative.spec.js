@@ -1,8 +1,6 @@
 var LoginForm = require('./page-objects/loginForm.pageObject');
-var Menu = require('./page-objects/menu.pageObject');
 var Settings = require('./page-objects/settings.pageObject');
 var Notifications = require('./page-objects/notifications.pageObject')
-var EC = protractor.ExpectedConditions;
 
 describe("NUADU Settings Page ", function() {
 
