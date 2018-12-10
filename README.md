@@ -17,7 +17,7 @@ To run tests, please navigate to project's root directory and run:
 protractor conf.js
 ~~~
 
-Two of the 21 test cases fails:
+Two of the 20 test cases fails:
   1. should display human readable message when user try to save too long password 
   2. should not allow to save number with less than 9 characters
 
